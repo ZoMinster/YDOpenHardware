@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YDThirdPartLoader.h"
 
 #import <YDOpenHardwareCore/YDOpenHardwareMgr.h>
 
@@ -29,6 +30,6 @@
 }
 
 - (IBAction)toThirdPartVC:(id)sender {
-    [[YDOpenHardwareMgr sharedMgr] toThirdPartVC];
+    [[YDThirdPartLoader shared] toThirdPartVC];
 }
 @end

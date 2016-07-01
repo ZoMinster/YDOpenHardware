@@ -40,15 +40,6 @@
 - (void)unRegisterDevice: (NSString *)device_identity plug: (NSString *)plug_name user: (NSNumber *)user_id block: (YDOpenHardwareOperateBlock)block;
 
 /**
- *  设置插件初始VC类
- *
- *  @param plugVC 插件初始VC类
- *
- *  @return 是否设置成功
- */
-- (BOOL)setupPlugVC: (Class)plugVC;
-
-/**
  *  是否注册
  *
  *  @param device_id 第三方设备id

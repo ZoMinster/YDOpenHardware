@@ -19,13 +19,6 @@
 
 - (instancetype)init YD_UNAVAILABLE("用 + (instancetype)sharedMgr 获取实例.");
 
-/**
- *  去第三方起始页
- *
- *  @return 是否成功
- */
-- (BOOL)toThirdPartVC;
-
 + (YDOpenHardwareDP *)dataProvider;
 
 

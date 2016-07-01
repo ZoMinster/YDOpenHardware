@@ -7,14 +7,13 @@
 //
 
 #import "ThirdPartSDK.h"
-#import <YDOpenHardwareSDK/YDOpenHardwareManager.h>
 #import "ThirdPartViewController.h"
 
 
 @implementation ThirdPartSDK
 
-+ (void)registerApp:(NSString *)appid registerAppBlock:(RegisterAppBlock)registerAppBlock {
-    [[YDOpenHardwareManager sharedManager] setupPlugVC: [ThirdPartViewController class]];
++ (void)registerApp:(NSString *)appid {
+    NSLog(@"ok");
 }
 
 @end

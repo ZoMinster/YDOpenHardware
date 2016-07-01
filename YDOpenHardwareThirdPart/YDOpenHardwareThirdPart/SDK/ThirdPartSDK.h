@@ -7,18 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-//
-typedef NS_ENUM(NSInteger,RegisterAppState) {//注册app状态
-    RegisterAppStateSuccess = 0,//成功
-    RegisterAppStateFailParamsError = 1,//appid错误
-    RegisterAppStateFailVersionTooLow = 2//版本号过低或过高，需要新的SDK请联系客服
-};
 
-//验证app的block，将状态返回
-typedef void(^RegisterAppBlock)(RegisterAppState registerAppState);
 
 @interface ThirdPartSDK : NSObject
-
-+ (void)registerApp: (NSString *)appid registerAppBlock: (RegisterAppBlock)registerAppBlock;
+//第三方自己的初始化方法
++ (void)registerApp: (NSString *)appid;
 
 @end

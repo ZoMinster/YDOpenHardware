@@ -22,15 +22,15 @@
 		</data>
 		<key>Headers/YDOpenHardwareMgr.h</key>
 		<data>
-		R382yQusu5p4EDRGI8xyDgVFmS8=
+		6/RhcbF+akhODxrgZqbs4NaN6Wc=
 		</data>
 		<key>Headers/YDOpenHardwareMgrProtocol.h</key>
 		<data>
-		9eq3hwU0GKICNzNRMavuTpLkopc=
+		MkK89w5NUiYmfsjHBKPuQk9G3pc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gWt6azdBjmHJPC5zOvI+ogtk56s=
+		5hzN0GwDdgG85hyxZAgNl7MEC/M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,22 +91,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R382yQusu5p4EDRGI8xyDgVFmS8=
+			6/RhcbF+akhODxrgZqbs4NaN6Wc=
 			</data>
 			<key>hash2</key>
 			<data>
-			6u+m3Jw8QTjHW1wxtqtUVK9T5WioMe/HU+hwEO4YPWk=
+			mtL700raVjqRTeT50kwFEXTX+OoxzaUVOBe7Jrl0wz0=
 			</data>
 		</dict>
 		<key>Headers/YDOpenHardwareMgrProtocol.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9eq3hwU0GKICNzNRMavuTpLkopc=
+			MkK89w5NUiYmfsjHBKPuQk9G3pc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HiU+mPJ292CKBuMxhbmxDM7pVYE4FETITq7kllP7D/k=
+			qig3S2KB/OZ8755I5xGLUl4E1p6Afw3dto9ywjEIfBg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
