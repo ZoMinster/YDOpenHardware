@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-static NSString *const NtfOpenHardwareUserChange = @"NtfOpenHardwareUserChange";
+static NSString *const YDNtfOpenHardwareUserChange = @"YDNtfOpenHardwareUserChange";
 
 @interface YDOpenHardwareUser : NSObject
 

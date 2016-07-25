@@ -18,11 +18,13 @@
 @property (nonatomic, strong) NSNumber *ohsId;//对应数据库字段：ohs_id
 @property (nonatomic, strong) NSString *deviceId;//对应数据库字段：device_id
 @property (nonatomic, strong) NSNumber *sleepSec;//对应数据库字段：sleep_sec
-@property (nonatomic, strong) NSNumber *sleepSection;//对应数据库字段：sleep_section 睡眠阶段 1234 分别对应非快眼动睡眠的四个阶段 5 对应快眼动睡眠，0对应清醒
+@property (nonatomic, strong) NSNumber *sleepSection;//对应数据库字段：sleep_section
 @property (nonatomic, strong) NSDate *startTime;//对应数据库字段：start_time
 @property (nonatomic, strong) NSDate *endTime;//对应数据库字段：end_time
 @property (nonatomic, strong) NSNumber *userId;//对应数据库字段：user_id
 @property (nonatomic, strong) NSString *extra;//对应数据库字段：extra
+@property (nonatomic, strong) NSNumber *serverId;//对应数据库字段：server_id
+@property (nonatomic, strong) NSNumber *status;//对应数据库字段：status
 
 
 /**
@@ -36,8 +38,10 @@
  *  @param end_time	对应属性：endTime
  *  @param user_id	对应属性：userId
  *  @param extra_	对应属性：extra
+ *  @param server_id	对应属性：serverId
+ *  @param status_	对应属性：status
  */
-- (void)constructByOhsId: (NSNumber *)ohs_id DeviceId: (NSString *)device_id SleepSec: (NSNumber *)sleep_sec SleepSection: (NSNumber *)sleep_section StartTime: (NSDate *)start_time EndTime: (NSDate *)end_time UserId: (NSNumber *)user_id Extra: (NSString *)extra_;
+- (void)constructByOhsId: (NSNumber *)ohs_id DeviceId: (NSString *)device_id SleepSec: (NSNumber *)sleep_sec SleepSection: (NSNumber *)sleep_section StartTime: (NSDate *)start_time EndTime: (NSDate *)end_time UserId: (NSNumber *)user_id Extra: (NSString *)extra_ ServerId: (NSNumber *)server_id Status: (NSNumber *)status_;
 
 - (void)constructByModel: (id)model;
 

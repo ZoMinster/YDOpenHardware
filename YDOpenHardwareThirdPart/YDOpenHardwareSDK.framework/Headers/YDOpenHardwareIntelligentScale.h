@@ -15,18 +15,20 @@
  */
 @interface YDOpenHardwareIntelligentScale : NSObject
 
-@property (nonatomic, strong) NSNumber *ohiId;//对应数据库字段：ohi_id 主键
-@property (nonatomic, strong) NSString *deviceId;//对应数据库字段：device_id 悦动生成的用户id
-@property (nonatomic, strong) NSDate *timeSec;//对应数据库字段：time_sec 创建的时间
-@property (nonatomic, strong) NSNumber *weightG;//对应数据库字段：weight_g 体重(g)
-@property (nonatomic, strong) NSNumber *heightCm;//对应数据库字段：height_cm 身高(cm)
-@property (nonatomic, strong) NSNumber *bodyFatPer;//对应数据库字段：body_fat_per 脂肪率 float 0 ~ 100
-@property (nonatomic, strong) NSNumber *bodyMusclePer;//对应数据库字段：body_muscle_per float 0 ~ 100
-@property (nonatomic, strong) NSNumber *bodyMassIndex;//对应数据库字段：body_mass_index float 0 ~ 100
-@property (nonatomic, strong) NSNumber *basalMetabolismRate;//对应数据库字段：basal_metabolism_rate float 0 ~ 100
-@property (nonatomic, strong) NSNumber *bodyWaterPercentage;//对应数据库字段：body_water_percentage float 0 ~ 100
-@property (nonatomic, strong) NSNumber *userId;//对应数据库字段：user_id 用户id
-@property (nonatomic, strong) NSString *extra;//对应数据库字段：extra 扩展字段
+@property (nonatomic, strong) NSNumber *ohiId;//对应数据库字段：ohi_id
+@property (nonatomic, strong) NSString *deviceId;//对应数据库字段：device_id
+@property (nonatomic, strong) NSDate *timeSec;//对应数据库字段：time_sec
+@property (nonatomic, strong) NSNumber *weightG;//对应数据库字段：weight_g
+@property (nonatomic, strong) NSNumber *heightCm;//对应数据库字段：height_cm
+@property (nonatomic, strong) NSNumber *bodyFatPer;//对应数据库字段：body_fat_per
+@property (nonatomic, strong) NSNumber *bodyMusclePer;//对应数据库字段：body_muscle_per
+@property (nonatomic, strong) NSNumber *bodyMassIndex;//对应数据库字段：body_mass_index
+@property (nonatomic, strong) NSNumber *basalMetabolismRate;//对应数据库字段：basal_metabolism_rate
+@property (nonatomic, strong) NSNumber *bodyWaterPercentage;//对应数据库字段：body_water_percentage
+@property (nonatomic, strong) NSNumber *userId;//对应数据库字段：user_id
+@property (nonatomic, strong) NSString *extra;//对应数据库字段：extra
+@property (nonatomic, strong) NSNumber *serverId;//对应数据库字段：server_id
+@property (nonatomic, strong) NSNumber *status;//对应数据库字段：status
 
 
 /**
@@ -44,8 +46,10 @@
  *  @param body_water_percentage	对应属性：bodyWaterPercentage
  *  @param user_id	对应属性：userId
  *  @param extra_	对应属性：extra
+ *  @param server_id	对应属性：serverId
+ *  @param status_	对应属性：status
  */
-- (void)constructByOhiId: (NSNumber *)ohi_id DeviceId: (NSString *)device_id TimeSec: (NSDate *)time_sec WeightG: (NSNumber *)weight_g HeightCm: (NSNumber *)height_cm BodyFatPer: (NSNumber *)body_fat_per BodyMusclePer: (NSNumber *)body_muscle_per BodyMassIndex: (NSNumber *)body_mass_index BasalMetabolismRate: (NSNumber *)basal_metabolism_rate BodyWaterPercentage: (NSNumber *)body_water_percentage UserId: (NSNumber *)user_id Extra: (NSString *)extra_;
+- (void)constructByOhiId: (NSNumber *)ohi_id DeviceId: (NSString *)device_id TimeSec: (NSDate *)time_sec WeightG: (NSNumber *)weight_g HeightCm: (NSNumber *)height_cm BodyFatPer: (NSNumber *)body_fat_per BodyMusclePer: (NSNumber *)body_muscle_per BodyMassIndex: (NSNumber *)body_mass_index BasalMetabolismRate: (NSNumber *)basal_metabolism_rate BodyWaterPercentage: (NSNumber *)body_water_percentage UserId: (NSNumber *)user_id Extra: (NSString *)extra_ ServerId: (NSNumber *)server_id Status: (NSNumber *)status_;
 
 - (void)constructByModel: (id)model;
 

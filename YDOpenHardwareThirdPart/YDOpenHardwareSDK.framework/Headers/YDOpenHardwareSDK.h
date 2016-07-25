@@ -7,12 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for YDOpenHardwareSDK.
 FOUNDATION_EXPORT double YDOpenHardwareSDKVersionNumber;
 
 //! Project version string for YDOpenHardwareSDK.
 FOUNDATION_EXPORT const unsigned char YDOpenHardwareSDKVersionString[];
+
+static NSString *const YDNtfOpenHardwareAppdidFinishLaunch = @"YDNtfOpenHardwareAppdidFinishLaunch";
+static NSString *const YDNtfOpenHardwareAppWillResignActive = @"YDNtfOpenHardwareAppWillResignActive";
+static NSString *const YDNtfOpenHardwareAppDidEnterBackground = @"YDNtfOpenHardwareAppDidEnterBackground";
+static NSString *const YDNtfOpenHardwareAppWillEnterForeground = @"YDNtfOpenHardwareAppWillEnterForeground";
+static NSString *const YDNtfOpenHardwareAppDidBecomeActive = @"YDNtfOpenHardwareAppDidBecomeActive";
+static NSString *const YDNtfOpenHardwareAppWillTerminate = @"YDNtfOpenHardwareAppWillTerminate";
 
 // In this header, you should import all the public headers of your framework using statements like #import <YDOpenHardwareSDK/PublicHeader.h>
 

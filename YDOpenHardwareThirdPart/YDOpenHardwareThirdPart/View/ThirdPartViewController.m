@@ -127,12 +127,12 @@ static NSString *cellId = @"cellId";
         }
         case 2: {
             YDOpenHardwareIntelligentScale *is = [[YDOpenHardwareIntelligentScale alloc] init];
-            [is constructByOhiId: nil DeviceId: @"yd_device_identity_133_test" TimeSec: [NSDate date] WeightG: @60000 HeightCm: @170 BodyFatPer: @0 BodyMusclePer: @0 BodyMassIndex: @0 BasalMetabolismRate: @0 BodyWaterPercentage: @0 UserId: @133 Extra: @""];
+            [is constructByOhiId: nil DeviceId: @"yd_device_identity_133_test" TimeSec: [NSDate date] WeightG: @60000 HeightCm: @170 BodyFatPer: @0 BodyMusclePer: @0 BodyMassIndex: @0 BasalMetabolismRate: @0 BodyWaterPercentage: @0 UserId: @133 Extra: @"" ServerId:nil Status:nil];
             [[YDOpenHardwareManager dataProvider] insertIntelligentScale: is completion: ^(BOOL success) {
                 
             }];
             YDOpenHardwareHeartRate *hr = [[YDOpenHardwareHeartRate alloc] init];
-            [hr constructByOhhId: nil DeviceId: @"yd_device_identity_133_test" HeartRate: @100 StartTime: [NSDate date] EndTime: [NSDate date] UserId: @133 Extra: @""];
+            [hr constructByOhhId: nil DeviceId: @"yd_device_identity_133_test" HeartRate: @100 StartTime: [NSDate date] EndTime: [NSDate date] UserId: @133 Extra: @"" ServerId:nil Status:nil];
             [[YDOpenHardwareManager dataProvider] insertHeartRate: hr completion:^(BOOL success) {
                 NSLog(@"%@", hr.ohhId);
             }];

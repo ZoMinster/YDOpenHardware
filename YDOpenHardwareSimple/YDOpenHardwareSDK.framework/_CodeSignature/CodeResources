@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/YDOpenHardwareHeartRate.h</key>
 		<data>
-		6lsauHjJU2SdsbNkGXofkDAsW5Y=
+		sqCWp7qt+848/02zmwBLdo298Ds=
 		</data>
 		<key>Headers/YDOpenHardwareIntelligentScale.h</key>
 		<data>
-		F/845nRorDOiqa0ISBc5Qh/emp8=
+		V4OH8Kd/7YeyX1jGje1IN/lq4uk=
 		</data>
 		<key>Headers/YDOpenHardwareManager.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/YDOpenHardwarePedometer.h</key>
 		<data>
-		BQyasg2C7/kyb1/CUL5frYn7FnA=
+		w+7V3agG6XC5mYKQRQDlK8UaOWE=
 		</data>
 		<key>Headers/YDOpenHardwareSDK.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/YDOpenHardwareSleep.h</key>
 		<data>
-		azNH2N30IVcqzqx99cqhV+MUA6k=
+		vOWlJgiAdrIo7Ok/cPJbPnZB5Mo=
 		</data>
 		<key>Headers/YDOpenHardwareUser.h</key>
 		<data>
@@ -70,22 +70,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6lsauHjJU2SdsbNkGXofkDAsW5Y=
+			sqCWp7qt+848/02zmwBLdo298Ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			hpFgNVkqiVw0LyoA+LZStfB5MdeBF1ztPo/xoy7OUo0=
+			CqQJNLFPIsrkEHQxbOa9dyXfZEWhLk5I6LsCqYaWcWI=
 			</data>
 		</dict>
 		<key>Headers/YDOpenHardwareIntelligentScale.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F/845nRorDOiqa0ISBc5Qh/emp8=
+			V4OH8Kd/7YeyX1jGje1IN/lq4uk=
 			</data>
 			<key>hash2</key>
 			<data>
-			kOrkWdnzcNXAwziXXuDnMSPDveT/cFwg1MuA1Xyo8ak=
+			HKy25HPTK9YnSAvozQug3JTiYzenMbQHJOV7LyTfe+4=
 			</data>
 		</dict>
 		<key>Headers/YDOpenHardwareManager.h</key>
@@ -103,11 +103,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BQyasg2C7/kyb1/CUL5frYn7FnA=
+			w+7V3agG6XC5mYKQRQDlK8UaOWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jMahR9UqRUeS6SgrF0Cn8SzPOReCqLIOqBLNDGzcsSo=
+			+8de/S05oQrheAtJCavnZ3YsYPGCa3EnJZ5tUcxzgn0=
 			</data>
 		</dict>
 		<key>Headers/YDOpenHardwareSDK.h</key>
@@ -136,11 +136,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			azNH2N30IVcqzqx99cqhV+MUA6k=
+			vOWlJgiAdrIo7Ok/cPJbPnZB5Mo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TE8gds5RsCjD+ZHLLHoxnicUp+9O9ojvKJyIie7gmF8=
+			SP51lo7zg+XEsmXRQW1t2XXO/hEhOkgeEE76Iw5Lijs=
 			</data>
 		</dict>
 		<key>Headers/YDOpenHardwareUser.h</key>
