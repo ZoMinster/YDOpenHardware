@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/YDOpenHardwareUser.h</key>
 		<data>
-		q621L6UjCxRQRlQckepT1ziN8n4=
+		n9NgbCTREDtoZ1kqyqDwsQePOoA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -147,11 +147,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q621L6UjCxRQRlQckepT1ziN8n4=
+			n9NgbCTREDtoZ1kqyqDwsQePOoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			+r5NjmamcjWpMSkFYZdrnBHrX8TEZl3hM99S1lebW20=
+			c15YuPjipX0tFzT6KkIoPZRmJQBH+/x0pWXxsMuq0UU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

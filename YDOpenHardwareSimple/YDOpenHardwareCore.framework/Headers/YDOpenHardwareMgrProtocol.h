@@ -10,6 +10,8 @@
 
 #import "YDOpenHardwareCoreDefine.h"
 
+@class YDOpenHardwareUser;
+
 @protocol YDOpenHardwareMgrProtocol <NSObject>
 @required
 /**
@@ -51,6 +53,13 @@
  *  @param block     回调，返回
  */
 - (void)isYDRegistered: (NSString *)device_identity plug: (NSString *)plug_name user: (NSNumber *)user_id block: (YDOpenHardwareRegisterStateBlock)block;
+
+/**
+ *  获取当前的用户
+ *
+ *  @return 当前的用户信息
+ */
+- (YDOpenHardwareUser *)getCurrentUser;
 
 @optional
 

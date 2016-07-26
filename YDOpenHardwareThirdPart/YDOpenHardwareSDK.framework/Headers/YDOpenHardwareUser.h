@@ -26,5 +26,6 @@ static NSString *const YDNtfOpenHardwareUserChange = @"YDNtfOpenHardwareUserChan
 
 @property (nonatomic, strong) NSDate *birth; //生日
 @property (nonatomic, strong) NSNumber *height; //身高cm
+@property (nonatomic, strong) NSNumber *weight; //重量g
 
 @end

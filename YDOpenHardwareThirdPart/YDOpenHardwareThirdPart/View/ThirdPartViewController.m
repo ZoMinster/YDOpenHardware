@@ -127,31 +127,31 @@ static NSString *cellId = @"cellId";
         }
         case 2: {
             YDOpenHardwareIntelligentScale *is = [[YDOpenHardwareIntelligentScale alloc] init];
-            [is constructByOhiId: nil DeviceId: @"yd_device_identity_133_test" TimeSec: [NSDate date] WeightG: @60000 HeightCm: @170 BodyFatPer: @0 BodyMusclePer: @0 BodyMassIndex: @0 BasalMetabolismRate: @0 BodyWaterPercentage: @0 UserId: @133 Extra: @"" ServerId:nil Status:nil];
+            [is constructByOhiId: nil DeviceId: @"133-test-test" TimeSec: [NSDate date] WeightG: @60000 HeightCm: @170 BodyFatPer: @0 BodyMusclePer: @0 BodyMassIndex: @0 BasalMetabolismRate: @0 BodyWaterPercentage: @0 UserId: @133 Extra: @"" ServerId:nil Status:nil];
             [[YDOpenHardwareManager dataProvider] insertIntelligentScale: is completion: ^(BOOL success) {
                 
             }];
             YDOpenHardwareHeartRate *hr = [[YDOpenHardwareHeartRate alloc] init];
-            [hr constructByOhhId: nil DeviceId: @"yd_device_identity_133_test" HeartRate: @100 StartTime: [NSDate date] EndTime: [NSDate date] UserId: @133 Extra: @"" ServerId:nil Status:nil];
+            [hr constructByOhhId: nil DeviceId: @"133-test-test" HeartRate: @100 StartTime: [NSDate date] EndTime: [NSDate date] UserId: @133 Extra: @"" ServerId:nil Status:nil];
             [[YDOpenHardwareManager dataProvider] insertHeartRate: hr completion:^(BOOL success) {
                 NSLog(@"%@", hr.ohhId);
             }];
             break;
         }
         case 3: {
-            [[YDOpenHardwareManager dataProvider] selectNewIntelligentScaleByDeviceIdentity: @"yd_device_identity_133_test" userId: @133 completion: ^(BOOL success, YDOpenHardwareIntelligentScale *is) {
+            [[YDOpenHardwareManager dataProvider] selectNewIntelligentScaleByDeviceIdentity: @"133-test-test" userId: @133 completion: ^(BOOL success, YDOpenHardwareIntelligentScale *is) {
                 
             }];
-            [[YDOpenHardwareManager dataProvider] selectIntelligentScaleByDeviceIdentity: @"yd_device_identity_133_test" timeSec: nil userId: @133 betweenStart: nil end: nil pageNo: @1 pageSize: @10 completion: ^(BOOL success, NSArray<YDOpenHardwareIntelligentScale *> *data) {
+            [[YDOpenHardwareManager dataProvider] selectIntelligentScaleByDeviceIdentity: @"133-test-test" timeSec: nil userId: @133 betweenStart: nil end: nil pageNo: @1 pageSize: @10 completion: ^(BOOL success, NSArray<YDOpenHardwareIntelligentScale *> *data) {
                 
             }];
-            [[YDOpenHardwareManager dataProvider] selectIntelligentScaleByDeviceIdentity: @"yd_device_identity_133_test" timeSec: nil userId: @133 betweenStart: nil end: nil completion:^(BOOL success, NSArray<YDOpenHardwareIntelligentScale *> *data) {
+            [[YDOpenHardwareManager dataProvider] selectIntelligentScaleByDeviceIdentity: @"133-test-test" timeSec: nil userId: @133 betweenStart: nil end: nil completion:^(BOOL success, NSArray<YDOpenHardwareIntelligentScale *> *data) {
                 
             }];
             break;
         }
         case 4: {
-            [[YDOpenHardwareManager sharedManager] unRegisterDevice: @"yd_device_identity_133_test" plug: @"test" user: @133 block:^(YDOpenHardwareOperateState operateState) {
+            [[YDOpenHardwareManager sharedManager] unRegisterDevice: @"133-test-test" plug: @"test" user: @133 block:^(YDOpenHardwareOperateState operateState) {
                 
             }];
             break;
