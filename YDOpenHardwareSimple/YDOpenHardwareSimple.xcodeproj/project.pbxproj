@@ -22,6 +22,7 @@
 		4D6D8FDA1C60E35900003AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D8FD81C60E35900003AA0 /* LaunchScreen.storyboard */; };
 		4D6D8FE51C60E35900003AA0 /* YDOpenHardwareSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D8FE41C60E35900003AA0 /* YDOpenHardwareSimpleTests.m */; };
 		4D6D8FF01C60E35900003AA0 /* YDOpenHardwareSimpleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D8FEF1C60E35900003AA0 /* YDOpenHardwareSimpleUITests.m */; };
+		4D77A0931D7812E300A98BFF /* YDThirdNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A0921D7812E300A98BFF /* YDThirdNavigationController.m */; };
 		4DB5ACEA1C732A7D00763E61 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB5ACE91C732A7D00763E61 /* libsqlite3.tbd */; };
 		4DC6BA081C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC6BA071C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,8 @@
 		4D6D8FEB1C60E35900003AA0 /* YDOpenHardwareSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDOpenHardwareSimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6D8FEF1C60E35900003AA0 /* YDOpenHardwareSimpleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDOpenHardwareSimpleUITests.m; sourceTree = "<group>"; };
 		4D6D8FF11C60E35900003AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D77A0911D7812E300A98BFF /* YDThirdNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDThirdNavigationController.h; sourceTree = "<group>"; };
+		4D77A0921D7812E300A98BFF /* YDThirdNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDThirdNavigationController.m; sourceTree = "<group>"; };
 		4DB5ACE91C732A7D00763E61 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		4DC6BA071C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YDOpenHardwareThirdPart.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/openHardware-ffpkdusfolkehfcbjurxncwblwqe/Build/Products/Debug-iphoneos/YDOpenHardwareThirdPart.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +144,8 @@
 		4D4A647F1D261C1C00915104 /* ThirdPartLoader */ = {
 			isa = PBXGroup;
 			children = (
+				4D77A0911D7812E300A98BFF /* YDThirdNavigationController.h */,
+				4D77A0921D7812E300A98BFF /* YDThirdNavigationController.m */,
 				4D4A64801D261C1C00915104 /* YDThirdPardModel.h */,
 				4D4A64811D261C1C00915104 /* YDThirdPardModel.m */,
 				4D4A64821D261C1C00915104 /* YDThirdPartLoader.h */,
@@ -362,6 +367,7 @@
 				4D6D8FCF1C60E35800003AA0 /* AppDelegate.m in Sources */,
 				4D4A64841D261C1C00915104 /* MSJsonKit.mm in Sources */,
 				4D4A64881D261C1C00915104 /* YDThirdPartLoader.m in Sources */,
+				4D77A0931D7812E300A98BFF /* YDThirdNavigationController.m in Sources */,
 				4D6D8FCC1C60E35800003AA0 /* main.m in Sources */,
 				4D4A64851D261C1C00915104 /* MSVCRouter.m in Sources */,
 				4D4A64871D261C1C00915104 /* YDThirdPardModel.m in Sources */,

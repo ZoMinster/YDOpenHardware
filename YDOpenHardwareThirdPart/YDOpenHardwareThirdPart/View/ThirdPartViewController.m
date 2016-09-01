@@ -59,6 +59,7 @@ static NSString *cellId = @"cellId";
         [self.tableView mas_makeConstraints: ^(MASConstraintMaker *make) {
             make.edges.equalTo(self.view).with.insets(padding);
         }];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(back)];
     }
 }
 
@@ -86,6 +87,18 @@ static NSString *cellId = @"cellId";
     }
 }
 
+- (void)back {
+    if (self.navigationController) {
+        if (self.navigationController.childViewControllers.count <= 1) {
+            [self.navigationController dismissViewControllerAnimated:YES completion:NULL];
+        } else {
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+    } else {
+        [self dismissViewControllerAnimated:YES completion:NULL];
+    }
+    
+}
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

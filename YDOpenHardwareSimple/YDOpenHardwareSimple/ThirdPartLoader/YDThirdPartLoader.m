@@ -11,6 +11,7 @@
 #import "MSJsonKit.h"
 #import "YDThirdPardModel.h"
 #import "MSVCRouter.h"
+#import "YDThirdNavigationController.h"
 
 #import "objc/runtime.h"
 
@@ -65,13 +66,17 @@ static YDThirdPartLoader *singleton;
                                 //消息调用
                                 [invocation invoke];
                             } else {
+#ifdef DEBUG
                                 NSLog(@"%@ 方法名错误", model.yInitClassName);
+#endif
                             }
                             
                         }
                         
                     } else{
+#ifdef DEBUG
                         NSLog(@"插件初始化类名错误");
+#endif
                     }
                 }
             }
@@ -89,7 +94,12 @@ static YDThirdPartLoader *singleton;
         Class kClass = NSClassFromString(model.rootVCName);
         if (kClass) {
             [kClass load];
-            [[MSVCRouter sharedInstance] openURLString:[NSString stringWithFormat:@"./%@", model.rootVCName]];
+            [[MSVCRouter sharedInstance] mapKey:[NSString stringWithFormat:@"thirdpart_%@", model.rootVCName] toBlock:^UIViewController *{
+                UIViewController *vc = [[kClass alloc] init];
+                YDThirdNavigationController *nav = [[YDThirdNavigationController alloc] initWithRootViewController:vc];
+                return nav;
+            }];
+            [[MSVCRouter sharedInstance] openURLString:[NSString stringWithFormat:@"modal://thirdpart_%@", model.rootVCName]];
         }
     }
 }
