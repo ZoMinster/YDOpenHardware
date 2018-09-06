@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1C398B1C7F088100A06940 /* YDOpenHardwareCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1C398A1C7F088100A06940 /* YDOpenHardwareCore.framework */; };
 		4D1C398D1C7F089700A06940 /* YDOpenHardwareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1C398C1C7F089700A06940 /* YDOpenHardwareSDK.framework */; };
 		4D4A64841D261C1C00915104 /* MSJsonKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A64781D261C1C00915104 /* MSJsonKit.mm */; };
 		4D4A64851D261C1C00915104 /* MSVCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A647B1D261C1C00915104 /* MSVCRouter.m */; };
@@ -25,6 +24,7 @@
 		4D77A0931D7812E300A98BFF /* YDThirdNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A0921D7812E300A98BFF /* YDThirdNavigationController.m */; };
 		4DB5ACEA1C732A7D00763E61 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB5ACE91C732A7D00763E61 /* libsqlite3.tbd */; };
 		4DC6BA081C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC6BA071C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework */; };
+		50C9D3952140C12700E74CA2 /* YDOpenHardwareCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C9D3942140C12700E74CA2 /* YDOpenHardwareCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D1C398A1C7F088100A06940 /* YDOpenHardwareCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YDOpenHardwareCore.framework; sourceTree = "<group>"; };
 		4D1C398C1C7F089700A06940 /* YDOpenHardwareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YDOpenHardwareSDK.framework; sourceTree = "<group>"; };
 		4D4A64771D261C1C00915104 /* MSJsonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSJsonKit.h; sourceTree = "<group>"; };
 		4D4A64781D261C1C00915104 /* MSJsonKit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSJsonKit.mm; sourceTree = "<group>"; };
@@ -76,6 +75,7 @@
 		4D77A0921D7812E300A98BFF /* YDThirdNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDThirdNavigationController.m; sourceTree = "<group>"; };
 		4DB5ACE91C732A7D00763E61 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		4DC6BA071C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YDOpenHardwareThirdPart.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/openHardware-ffpkdusfolkehfcbjurxncwblwqe/Build/Products/Debug-iphoneos/YDOpenHardwareThirdPart.framework"; sourceTree = "<group>"; };
+		50C9D3942140C12700E74CA2 /* YDOpenHardwareCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YDOpenHardwareCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			files = (
 				4DC6BA081C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework in Frameworks */,
 				4DB5ACEA1C732A7D00763E61 /* libsqlite3.tbd in Frameworks */,
+				50C9D3952140C12700E74CA2 /* YDOpenHardwareCore.framework in Frameworks */,
 				4D1C398D1C7F089700A06940 /* YDOpenHardwareSDK.framework in Frameworks */,
-				4D1C398B1C7F088100A06940 /* YDOpenHardwareCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,8 +157,8 @@
 		4D6D8FBE1C60E35800003AA0 = {
 			isa = PBXGroup;
 			children = (
+				50C9D3942140C12700E74CA2 /* YDOpenHardwareCore.framework */,
 				4D1C398C1C7F089700A06940 /* YDOpenHardwareSDK.framework */,
-				4D1C398A1C7F088100A06940 /* YDOpenHardwareCore.framework */,
 				4DC6BA071C7BC6EA00344A32 /* YDOpenHardwareThirdPart.framework */,
 				4DB5ACE91C732A7D00763E61 /* libsqlite3.tbd */,
 				4DAB80341C7065BD00BED5D0 /* Framework */,
